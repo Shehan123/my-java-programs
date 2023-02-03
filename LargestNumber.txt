@@ -1,0 +1,23 @@
+public class LargestNumber{
+
+public static void main(String args[]);{
+
+float n1 = Float.parseFloat(args[0]);
+float n2 = Float.parseFloat(args[1]);
+float n3 = Float.parseFloat(args[2]);
+
+if
+(n1>=n2 && n1>n3)
+System.out.println("The Largest Number is n1 " +n1);
+
+else if (n2>=n1 && n2>=n3)
+System.out.println("The Largest Number is n2 " +n2);
+
+else
+
+System.out.println("The Largest Number is n3 "+n3);
+
+}
+}
+
+
